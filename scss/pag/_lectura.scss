@@ -1,0 +1,108 @@
+//<main id="main">
+//<div class="home">
+//    <p>Nombre de novela</p><p>capitulo</p>
+//    <a href="#">Index</a>
+//    <a href="#">Configuracion</a>
+//    <a href="Agregra a favoritos"></a>
+//</div>
+//<div class="lectura">
+//    <p></p>
+//</div>
+//<div>
+//    <a href="#">Anterior</a>
+//    <a href="#">Index</a>
+//    <a href="#">Siguiente</a>
+//</div>
+//</main>
+
+.cont_main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .home{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 75px;
+        height: 500px;
+        width: 120px;
+        left: 20px;
+        top: 127px;
+        background-color:rgba(174, 5, 5, 0.448);
+        position: fixed;
+        &a{
+            text-decoration: none;
+        }
+        .home_nombre{
+            margin-top: -50px;
+            color: $naranja;
+            text-shadow: $s_naranja;
+        }
+        .home_capitulo{
+            margin-top: -75px;
+            color: $naranja;
+            text-shadow: $s_naranja;
+        }
+        .home_index{
+            text-decoration: none;
+            color: $naranja;
+            text-shadow: $s_naranja;
+        }
+        .home_configuracion{
+            text-decoration: none;
+            color: $naranja;
+            text-shadow: $s_naranja;
+        }
+        .home_megusta{
+            text-decoration: none;
+            color: $naranja;
+            text-shadow: $s_naranja;
+        }
+        .home_biblioteca{
+            text-decoration: none;
+            color: $naranja;
+            text-shadow: $s_naranja;
+        }
+
+
+
+    }
+    .lectura{
+        display: flex;
+        width: 75vw;
+        background-color: rgba(24, 45, 49, 0.845);
+        backdrop-filter: blur(2px);
+        margin-top: 5vh;
+        margin-left: 20px;
+        min-height: 70vh;
+        & p {
+            margin: 70px;
+        }
+    }
+    .flechas{
+        gap: 50px;
+        margin-top: 20px;
+        height: 80px;
+        & a{
+            text-decoration: none;
+            border: 2 solid red;
+            font-size: 20px;
+            width: 100px;
+            height: 80px;            
+            margin: 20px;
+            color: $naranja;
+            text-shadow: $s_naranja;
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .cont_main{
+        .home{
+            display: none;
+        }
+    }
+    
+}

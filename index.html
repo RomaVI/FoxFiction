@@ -9,33 +9,38 @@
     <title>EpicLight o FoxFicttion</title>
 </head>
 
-<body>
-    <div class="container">
+<body class="body">
+    <header class="cont_header">
         <div class="logo">
-            <img src="/img/foxficttion3.png" alt="Logo o nombre de la página web EpicLight" class="foxficction" >
+            <img src="/img/foxficttion3.png" alt="Logo o nombre de la página web EpicLight" class="foxficttion">
         </div>
-        <div class="contenido_menu">
-            <div class="nav">
-                <ul>
-                    <li><a href="">Inicio</a></li>
-                    <li><a href="">Librería</a></li>
-                    <li><a href="">Novelas Ligeras</a></li>
-                    <li><a href="">Novelas Occidentales</a></li>
-                    <li><a href="">Novelas Eróticas</a></li>      <!-- Solo visibles para Mayores de 18 -->
-                    <li><a href="">Traductor/Escritor</a></li>    <!-- Solo visibles para Traductores o escritores -->
-                    <li><a href="">Contacto</a></li>
+        <nav class="cont_menu" id="nav">
+            <div class="cont_menu2">
+                <ul class="" style=" list-style-type:decimal-leading-zero ;">
+                    <li class="inicio"><a href="">Inicio</a></li>
+                    <li class="libreria"><a href="">Librería</a></li>
+                    <li class="novelas"><a href="">Novelas</a></li>
+                    <!--<li class="ligeras"><a href="">Novelas Ligeras</a></li>             -->
+                    <!--<li class="occidentales"><a href="">Novelas Occidentales</a></li>   -->
+                    <!--<li class="eroticas"><a href="">Novelas Eróticas</a></li>           -->
+                    <!--<li class="traesc"><a href="">Traductor/Escritor</a></li>           -->
+                    <!--eroticas solo visibles para Mayores de 18 -->
+                    <!--traesc solo visibles para Traductores o escritores -->
+                    <li class="contacto"><a href="">Contacto</a></li>
                 </ul>
             </div>
-            <div class="login_ingresar login_registrar" id="pre_login">
-                <button>Ingresar</button>
+            <div class=" pre_login">
+                <a class="login_ingresar " href="">Ingresar</a>
                 <p> | </p>
-                <button>Registrar</button>
+                <a class="login_registrar" href="">Registrar</a>
             </div>
-            <div class="abrir_hamburguer animacion_hamburguer" id="abrir_menu" >
-                <button></button>
-            </div>
+        </nav>
+        <div class="bot_menu">
+            <span class="line1_menu"></span>
+            <span class="line2_menu"></span>
+            <span class="line3_menu"></span>
         </div>
-    </div>
+    </header>
     <!--
         <div class="contenedor main">
             <div>
@@ -49,7 +54,7 @@
         </div>
     -->
     <script src="/js/main.js"></script>
+    <script src="/js/botones.js"></script>
 </body>
 
 </html>
-

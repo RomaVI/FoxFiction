@@ -1,0 +1,59 @@
+//Colores base 
+$negro: #000000;
+$negro2: #0f0e0e;
+
+$blanco: #EBEBEB;
+$blanco2: #EBEBEB;
+
+$gris: #024296;
+$gris2: #003780;
+
+//Colores neon
+$verde2: #53657D;
+$verde2: #53657D;
+$s_verde_int: inset 6px 6px 10px -1px rgba(0, 0, 0, 0.1), inset -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+$s_verde: 6px 6px 10px -1px rgba(0, 0, 0, 0.1), -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+
+$amarillo: #53657D;
+$amarillo2: #53657D;
+$s_amarilla_int: inset 6px 6px 10px -1px rgba(0, 0, 0, 0.1), inset -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+$s_amarilla: 6px 6px 10px -1px rgba(0, 0, 0, 0.1), -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+
+$azul: #53657D;
+$azul2: #53657D;
+$s_azul_int: inset 6px 6px 10px -1px rgba(0, 0, 0, 0.1), inset -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+$s_azul: 6px 6px 10px -1px rgba(0, 0, 0, 0.1), -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+
+$naranja: #fff9ee;
+$naranja2: #FFA500;
+$s_naranja_int: inset 0 0 5px #474238, 0 0 10px #686662, 0 0 20px #050505;
+$s_naranja: 0 0 5px #83807a, 0 0 10px #cbcac8, 0 0 20px #9385ff;
+
+
+// tamaños
+$navalt: 40px;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url("/img/fondo1,1.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+    width: 15px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: $gris;
+    border-radius: 10px;
+
+}
